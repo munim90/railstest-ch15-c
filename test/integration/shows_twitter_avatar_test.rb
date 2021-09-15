@@ -1,6 +1,6 @@
 require "test_helper"
 
-class TaskShowsTwitterAvatar < Capybara::Rails::TestCase
+class TaskShowsTwitterAvatar < ActionDispatch::IntegrationTest
   include Warden::Test::Helpers
 
   setup do
